@@ -4,12 +4,9 @@ import Images from './components/images';
 
 function App() {
   return (
-    <BrowserRouter basename="/pitcher-picture">
-      <>
-        <Images photos={patPhotoList().concat(brumPhotoList())} />
-      </>
-    </BrowserRouter>
-
+    <>
+      <Images photos={patPhotoList().concat(brumPhotoList())} />
+    </>
   )
 }
 
