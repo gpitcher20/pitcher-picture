@@ -1,11 +1,15 @@
 import './App.css';
 import Images from './components/images';
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Images photos={patPhotoList().concat(brumPhotoList())} />
-    </>
+    <BrowserRouter basename="/pitcher-picture">
+      <>
+        <Images photos={patPhotoList().concat(brumPhotoList())} />
+      </>
+    </BrowserRouter>
+
   )
 }
 
