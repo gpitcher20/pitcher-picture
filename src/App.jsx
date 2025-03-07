@@ -19,7 +19,7 @@ function patPhotoList() {
     import: 'default'
   });
   const noPublicPath = Object.entries(photoPaths).map(([path, url]) => {
-    return path.replace('../public', '');
+    return path.replace('../public', '/pitcher-picture');
   })
 
   return noPublicPath;
@@ -31,7 +31,7 @@ function brumPhotoList() {
     import: 'default'
   });
   const noPublicPath = Object.entries(photoPaths).map(([path, url]) => {
-    return path.replace('../public', '');
+    return path.replace('../public', '/pitcher-picture');
   })
 
   return noPublicPath;
