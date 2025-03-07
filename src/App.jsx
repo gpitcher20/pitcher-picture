@@ -1,6 +1,6 @@
 import './App.css';
 import Images from './components/images';
-import { BrowserRouter } from "react-router-dom";
+
 
 function App() {
   return (
